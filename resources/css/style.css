@@ -294,29 +294,29 @@ header {
 /* MEALS */
 /* ----------------------------------------------- */
 
-.section-meals {
+.section-trips {
     padding: 0;
 }
 
-.meals-showcase {
+.trip-showcase {
     list-style: none;
     width: 100%;
 }
 
-.meals-showcase li {
+.trip-showcase li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.meal-photo {
+.trip-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
+.trip-photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -327,7 +327,7 @@ header {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover {
+.trip-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
@@ -501,7 +501,7 @@ cite img {
     font-weight: 300;
 }
 
-.plan-price-meal {
+.plan-price-trip {
     font-size: 80%;
 }
 
